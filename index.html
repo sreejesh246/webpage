@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            body{
+                background-color: linen;
+            }
+            table{
+                background-color: rgb(205, 216, 215);
+            }
+            input{
+                background-color: rgb(199, 206, 205);
+            }
+            .ab{
+                color: rgb(153, 79, 45);
+            }
+        </style>
+    </head>
+
+    <body>
+        <center>
+        <form name="form" method="POST" action="message.html">
+            <br><br>
+            <table border="1">
+                <tr>
+                    <th class="ab" colspan="2">REGISTRTION FORM</th>
+                </tr>
+                <tr>
+                    <td>
+                        Name:
+                    </td>
+                    <td>
+                        <input type="text" name="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender:
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="female">Male
+                        <input type="radio" name="gender" value="male">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Department:
+                    </td>
+                    <td>
+                        <select id="dept">
+                            <option value="cs">CS</option>
+                            <option value="ec">ECE</option>
+                            <option value="me">ME</option>
+                            <option value="ce">CE</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Reg No:
+                    </td>
+                    <td>
+                        <input type="texts" name="regno">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Age:
+                    </td>
+                    <td>
+                        <input type="text" name="age">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Address:
+                    </td>
+                    <td>
+                        <textarea rows="5" cols="20" name="address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <input type="submit" name="submit" > 
+                    </td>
+                </tr>
+        </table>
+        </form>
+    </center>
+    </body>
+
+
+</html>
